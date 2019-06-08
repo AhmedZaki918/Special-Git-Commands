@@ -3,21 +3,18 @@ Git commands
      Command                       Description
 
 1-  touch <file>              // Insert new file
-2-  clear                     // Clear all written code on the window
-3-  git rm --cached <file>    // Unstage the file 
+2-  touch .gitignore          // Insert new gitignore file in the project
 
-4-  git remote -v             // View existing remotes
+3-  clear                     // Clear all written code on the window
+
+4-  git rm --cached <file>    // Unstage the file 
+
+5-  git remote -v             // View existing remotes
                               // origin  https://github.com/user/repo.git (fetch)
                               // origin  https://github.com/user/repo.git (push)
 
-5-  git remote set-url origin https://github.com/user/repo2.git
+6-  git remote set-url origin https://github.com/user/repo2.git
                               // Change the 'origin' remote's URL
 
 
-
-
-
-
-
-
-Note: Don't forget to add extension at the end of the <file> (ex news.txt).
+ * Note: Don't forget to add extension at the end of the <file> (ex news.txt).
